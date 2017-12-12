@@ -58,7 +58,10 @@ ASP.NET Core MVC provides features that help you build web APIs and web apps:
 
 ASP.NET Core MVC提供构建web APIs和web UI的必要支持:具体相关文档.
 
+## Client-side development(客户端开发)
+ASP.NET Core is designed to integrate seamlessly with a variety of client-side frameworks, including AngularJS, KnockoutJS, and Bootstrap. See Client-side development for more details.
 
+ASP.NET Core被设计成能无缝集成各种客户端框架,包括:AngularJS,KnockoutJS以及Bootstrap.查看客户端开发部门文档获得详细信息.
 
 
 
