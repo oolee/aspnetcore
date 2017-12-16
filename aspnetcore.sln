@@ -3,7 +3,25 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27004.2009
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Docs", "Docs", "{953C4118-42E6-409B-86DC-61C81FAB8B32}"
+	ProjectSection(SolutionItems) = preProject
+		2.1.CreateAWebApp.md = 2.1.CreateAWebApp.md
+		2.GettingStarted.md = 2.GettingStarted.md
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RazorPagesContacts", "RazorPagesContacts\RazorPagesContacts.csproj", "{A1B9DDB2-502D-4C5A-97C3-7FB509716893}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A1B9DDB2-502D-4C5A-97C3-7FB509716893}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A1B9DDB2-502D-4C5A-97C3-7FB509716893}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A1B9DDB2-502D-4C5A-97C3-7FB509716893}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A1B9DDB2-502D-4C5A-97C3-7FB509716893}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
